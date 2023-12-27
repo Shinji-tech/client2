@@ -2,4 +2,5 @@
     height: 80hv;
     border: 1px solid lightgray;
     overflow-y: scroll;
+    margin-bottom: 20px;
 }

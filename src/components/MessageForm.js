@@ -1,14 +1,15 @@
 import React from 'react'
 import { Button, Form, Row, Col } from "react-bootstrap";
 import './MessageForm.css';
-    function MessageForm() {
+    
+
+function MessageForm() {
         function handleSubmit(e) {
             e.preventDefault();
         }
   return (
     <>
-    <div className='message-output'></div>
-
+        <div className='message-output'> </div>
         <Form onSubmit={handleSubmit}>
 
             <Row>
