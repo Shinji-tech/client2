@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col, Button} from "react-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LinkContainer } from 'react-router-bootstrap';
 import './Home.css';
 const Home = () => {

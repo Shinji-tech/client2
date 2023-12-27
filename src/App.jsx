@@ -5,8 +5,10 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import Chat from './pages/Chat';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const user = useSelector((state) => state.user);
   return (
     <BrowserRouter>
       <Naviagtion/>
