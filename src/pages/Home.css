@@ -1,0 +1,8 @@
+.home__bg{
+    background-image: url(https://unsplash.com/photos/a-man-holding-a-tennis-racquet-on-top-of-a-tennis-court-H0ivh8df-5E);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
