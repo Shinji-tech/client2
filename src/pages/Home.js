@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Col, Button} from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { LinkContainer } from 'react-router-bootstrap';
+import './Home.css';
 const Home = () => {
   return (
     <Row>
@@ -10,12 +12,12 @@ const Home = () => {
                 <p>Travel beyond the world with Chat App</p>
                 <LinkContainer to="/chat">
                     <Button variant='success'>
-                        Get Started Now!
-                    <i className='fas fa-comments home-message-icon'></i>
+                        Get Started Now! <i className="fa-solid fa-comments home-message-icon"></i>
                     </Button>
                 </LinkContainer>
                 </div>       
         </Col>
+        <Col md={6} className='home__bg'></Col>
     </Row>
   )
 }
