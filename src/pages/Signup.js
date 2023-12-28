@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Container, Form, Row, Button, Spinner } from "react-bootstrap";
+import { Col, Container, Form, Row, Button } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { useSignupUserMutation } from "../services/appApi";
 import '@fortawesome/fontawesome-free/css/all.css';
@@ -67,7 +67,7 @@ function Signup() {
                     <Form style={{ width: "80%", maxWidth: 500 }} onSubmit={handleSignup}>
                         <h1 className="text-center">Create account</h1>
                         <div className="signup-profile-pic__container">
-                            <img src={imagePreview || bot} className="signup-profile-pic" />
+                            <img src={imagePreview || bot} className="signup-profile-pic" alt="pic"/>
                             <label htmlFor="image-upload" className="image-upload-label">
                                 <i className="fas fa-plus-circle add-picture-icon"></i>
                             </label>
